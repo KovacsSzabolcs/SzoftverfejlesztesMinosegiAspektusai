@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: ro.sapientia.mesteri2015.SCRUMSprintUpdateTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 64.499 sec <<< FAILURE!
+Then I should get result "updatefirstnew" in new stories list(Scenario: UpdateFirst)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[asd]updatefirstnew> but was:<[]updatefirstnew>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_should_get_result_in_new_stories_list(SCRUMSprintUpdateStepDefinition.java:57)
+	at ?.Then I should get result "updatefirstnew" in new stories list(ro\sapientia\mesteri2015\SCRUMSprintUpdate.feature:7)
+
+Scenario: UpdateFirst  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[asd]updatefirstnew> but was:<[]updatefirstnew>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_should_get_result_in_new_stories_list(SCRUMSprintUpdateStepDefinition.java:57)
+	at ?.Then I should get result "updatefirstnew" in new stories list(ro\sapientia\mesteri2015\SCRUMSprintUpdate.feature:7)
+
